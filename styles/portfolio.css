@@ -5,6 +5,12 @@
 p {
   font-family: "Poppins", sans-serif;
 }
+.navigation-bar {
+  padding: 50px 120px 0 !important;
+}
+.navbar-items {
+  flex-direction: row-reverse;
+}
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -73,6 +79,12 @@ p {
     padding: 30px;
     text-align: center;
   }
+  .work-inquiry {
+    text-align: center;
+  }
+  .work-inquiry-description {
+    justify-content: space-around;
+  }
 }
 @media (max-width: 700px) {
   .hero h1 {
@@ -84,7 +96,23 @@ p {
   .hero {
     padding: 80px 20px;
   }
+
+  .work-inquiry h2 {
+    font-size: 44px;
+  }
+
+  .work-inquiry p {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .contact-button {
+    margin-top: 5px !important;
+  }
+  .navigation-bar {
+    padding: 10px 0 !important;
+  }
 }
+
 .projects-description {
   font-family: "Poppins";
   font-style: normal;
@@ -108,6 +136,11 @@ p {
 .work-inquiry {
   background-color: var(--primary-color);
   max-width: 1400px;
+}
+.work-inquiry-description {
+  display: flex !important;
+  flex-basis: auto !important;
+  flex-direction: row-reverse;
 }
 .work-inquiry h2 {
   font-family: "Playfair Display";
@@ -134,7 +167,8 @@ p {
   padding: 18px 30px;
   background: var(--branding-color);
   border-radius: 4px;
+  margin: 48px 0;
 }
-.test {
-  padding-left: 50px;
+.contact-button {
+  margin: 0;
 }
