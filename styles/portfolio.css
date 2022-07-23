@@ -5,6 +5,14 @@
 p {
   font-family: "Poppins", sans-serif;
 }
+i {
+  color: var(--branding-color);
+  background: rgba(108, 99, 255, 0.2);
+  border-radius: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
 .navigation-bar {
   padding: 50px 120px 0 !important;
 }
@@ -171,4 +179,20 @@ p {
 }
 .contact-button {
   margin: 0;
+}
+.email {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.facebook {
+  padding: 11px 14px;
+}
+.twitter {
+  padding: 11px;
+}
+.instagram {
+  padding: 11px 12px;
 }
