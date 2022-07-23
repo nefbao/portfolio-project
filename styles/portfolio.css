@@ -93,6 +93,10 @@ i {
   .work-inquiry-description {
     justify-content: space-around;
   }
+  .works h1 {
+    font-size: 40px !important;
+    text-align: center;
+  }
 }
 @media (max-width: 700px) {
   .hero h1 {
@@ -188,8 +192,6 @@ i {
 }
 .email {
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
   font-size: 24px;
   line-height: 36px;
 }
@@ -207,16 +209,12 @@ i {
 }
 .about-me h1 {
   font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 700;
   font-size: 64px;
   line-height: 85px;
   margin-bottom: 30px;
 }
 .about-me h2 {
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   color: #272142;
@@ -224,8 +222,6 @@ i {
 }
 .about-me p {
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
@@ -234,8 +230,6 @@ i {
 .about-me a {
   display: inline-block;
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
@@ -243,4 +237,22 @@ i {
   background: var(--branding-color);
   border-radius: 4px;
   text-decoration: none;
+}
+.works h1 {
+  font-family: "Playfair Display";
+  font-size: 64px;
+}
+.works h2 {
+  font-family: "Poppins";
+
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.works p {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.7);
 }
