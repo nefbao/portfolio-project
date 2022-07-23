@@ -12,6 +12,11 @@ i {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  transition: ease-in-out 200ms;
+}
+i:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 li a {
   font-family: "Poppins";
